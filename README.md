@@ -1,5 +1,7 @@
 # Summary
-Project built to use various aspects of CSS grid and test them out properly.
+Project built to use various aspects of CSS grid and test them out properly. 
+
+It is still to be made completely responsive (for mobile as well).
 
 View the page at: https://ashinsabu.github.io/admin-dashboard-responsive/
 
