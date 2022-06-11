@@ -142,6 +142,7 @@ div{
     align-items: center;
     padding-left: 48px;
     gap: 16px;
+    color: #252733;
 }
 .left-name-area > img{
     box-shadow: 0 1px 3px #DFE0EB;
@@ -167,4 +168,98 @@ div{
 .right-button:hover{
     cursor: pointer;
     color: #DDE2FF;
+}
+.main-content{
+    display: grid;
+    padding: 32px;
+    gap: 32px;
+    grid-template-columns: repeat(3,minmax(100px,1fr)) 2fr;
+    grid-template-rows: 1fr 3fr 3fr;
+}
+
+.issuenumber{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #DFE0EB;
+}
+.issuenumber > h3{
+    color: #9FA2B4;
+}
+.issuenumber > h1{
+    font-weight: 800;
+    color: #252733;
+}
+
+.issuenumber:hover{
+    border: 2px solid #3751FF;
+}
+.issuenumber:hover h1{
+    color: #3751FF;
+}
+.issuenumber:hover h3{
+    color: #3751FF;
+}
+.trends{
+    border: 2px solid #DFE0EB;
+    background-color: white;
+    grid-column: 1/4;
+    /* grid-row: 2/3; */
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    border-radius: 16px;
+    overflow: hidden;
+    /* padding: 8px; */
+}
+.trends p{
+    font-size: 20px;
+}
+.chart{
+    padding: 8px;
+    grid-column: 1/6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.chart-details{
+    grid-column: 6/9;
+    border-left: 2px solid #dfe0eb;
+}
+.chart-detail-two, .chart-detail-three, .chart-detail-four{
+    border-top: 2px solid #dfe0eb;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.chart-detail-one{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.trends h4{
+    color: #9FA2B4;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .row-two{
+        display: flex;
+        flex-direction: column;
+    }
+    .right-buttons{
+        margin-top: 48px;
+    }
+    .main-content{
+        margin-top: 64px;
+    }
 }
