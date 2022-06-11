@@ -1,6 +1,8 @@
 # Summary
 Project built to use various aspects of CSS grid and test them out properly.
 
+View the page at: https://ashinsabu.github.io/admin-dashboard-responsive/
+
 # Built with guidance of THE ODIN PROJECT
 
 https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard
