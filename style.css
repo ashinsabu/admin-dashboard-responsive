@@ -104,8 +104,9 @@ div{
     background-color: #E2E8F0;
     border: transparent;
     outline: transparent;
-    font-size: 18px;
+    font-size: 14px;
     width: min(70%,600px);
+    padding: 12px;
 }
 .name-area{
     display: flex;
