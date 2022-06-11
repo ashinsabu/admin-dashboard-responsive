@@ -287,7 +287,7 @@ div{
     border-bottom: 1.5px solid transparent;
 }
 .tasks{
-    grid-column: 1/-1;
+    grid-column: 1/4;
     grid-row: 3/-1;
     background-color: white;
     border: 2px solid #DFE0EB;
@@ -321,12 +321,20 @@ div{
     margin-left: 20px;
 }
 .task{
+    margin-top: 8px;
+    display: flex;
+    gap: 32px;
+}
+.task-info{
     height: 32px;
     display: flex;
 }
 .task h4{
     align-self: center;
 }
+
+/* round checkbox design from codepen */
+
 .round {
     position: relative;
   }
@@ -373,7 +381,22 @@ div{
     transform: scale(1.1);
     transition: transform 0.3s;
   }
-      
+/* round checkbox design from codepen ends*/
+
+.badge{
+    width: 48px;
+    margin-left: 32px;
+    color: #9fa2b4;
+    padding: 0.35rem 0.85rem;
+    border-radius: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px !important; 
+}
 
 @media only screen and (max-width: 1280px) {
     .row-two{
