@@ -7,7 +7,9 @@ https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin
 
 # Credits
 Vectors and icons: https://materialdesignicons.com/
+
 Color Schemes: https://tailwindcss.com/docs/customizing-colors
+
 Design Inspiration: https://cdn.statically.io/gh/TheOdinProject/curriculum/main/html_css/grid-lessons/project-dashboard/dashboard-project.png
 
 # Technologies Used
